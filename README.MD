@@ -106,10 +106,12 @@ Label| no | |
 ```mvn
 mvn install:install-file -Dfile=jnetpcap.jar -DgroupId=org.jnetpcap -DartifactId=jnetpcap -Dversion=1.4.1 -Dpackaging=jar
 ```
+
 - Create artifact
 ```mvn
 mvn clean package
 ```
+
 - Run jar
 ```bash
 java -jar FeatureExtractor-1.0-SNAPSHOT-jar-with-dependencies.jar 
@@ -123,3 +125,7 @@ java -jar -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005  Fe
 ```
 
 - Configure in Intellij remote debug
+
+## Test
+
+The code was tested only on UNIX-based machine (Fedora 31).
