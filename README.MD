@@ -1,8 +1,10 @@
-#Feature Extractor
+# Feature Extractor
+
 The **FeautureExtractor project** aims to release a self-contained jar that allows to generate a CVS file from pcap files.
 The code is based on [CICFlowmeter-V4.0](https://github.com/CanadianInstituteForCybersecurity/CICFlowMeter).
 
-##Improvement 
+## Improvement 
+
 - Use _Apache Camel_ for file consuming
 - Manage the output values can be saved into CVS through **.properties** files. As the following table shows, two different dataset are created
 
@@ -99,6 +101,7 @@ Label| no | |
 - Set **csv.output.dir**
 
 ## Run
+
 - Install maven artifact
 ```mvn
 mvn install:install-file -Dfile=jnetpcap.jar -DgroupId=org.jnetpcap -DartifactId=jnetpcap -Dversion=1.4.1 -Dpackaging=jar
@@ -113,6 +116,7 @@ java -jar FeatureExtractor-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
 ## Debug
+
 - Run jar appending the remote debug
 ```bash 
 java -jar -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005  FeatureExtractor-1.0-SNAPSHOT-jar-with-dependencies.jar
