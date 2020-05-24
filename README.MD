@@ -1,7 +1,7 @@
 # Feature Extractor
 
 The **FeautureExtractor project** aims to release a self-contained jar that allows to generate a CVS file from pcap files.
-The code is based on [CICFlowmeter-V4.0](https://github.com/CanadianInstituteForCybersecurity/CICFlowMeter).
+The code is based on [CICFlowmeter-V4.0](https://github.com/CanadianInstituteForCybersecurity/CICFlowMeter) and [jNetPcap](https://github.com/ruedigergad/clj-net-pcap/tree/master/jnetpcap).
 
 ## Improvement 
 
@@ -99,6 +99,7 @@ Label| no | |
 - Self libraries' extraction in runtime 
 - Set **pcap.files.source.dir**
 - Set **csv.output.dir**
+- Install g++ and libpcap-dev
 
 ## Run
 
