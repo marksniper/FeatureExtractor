@@ -1,0 +1,102 @@
+#
+# Copyright (c)  Benedetto Marco Serinelli
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+# associated documentation files (the "Software"), to deal in the Software without restriction,
+# including without limitation the rights to use, copy, modify, merge, publish, distribute,
+# sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all copies or
+# substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+# BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+# NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+# DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+#
+Flow_ID=yes
+Src_IP=yes
+Src_Port=yes
+Dst_IP=yes
+Dst_Port=yes
+Protocol=yes
+Timestamp=yes
+Flow_Duration=yes
+Tot_Fwd_Pkts=yes
+Tot_Bwd_Pkts=yes
+TotLen_Fwd_Pkts=yes
+TotLen_Bwd_Pkts=yes
+Fwd_Pkt_Len_Max=yes
+Fwd_Pkt_Len_Min=yes
+Fwd_Pkt_Len_Mean=yes
+Fwd_Pkt_Len_Std=yes
+Bwd_Pkt_Len_Max=yes
+Bwd_Pkt_Len_Min=yes
+Bwd_Pkt_Len_Mean=yes
+Bwd_Pkt_Len_Std=yes
+Flow_Byts_s=yes
+Flow_Pkts_s=yes
+Flow_IAT_Mean=yes
+Flow_IAT_Std=yes
+Flow_IAT_Max=yes
+Flow_IAT_Min=yes
+Fwd_IAT_Tot=yes
+Fwd_IAT_Mean=yes
+Fwd_IAT_Std=yes
+Fwd_IAT_Max=yes
+Fwd_IAT_Min=yes
+Bwd_IAT_Tot=yes
+Bwd_IAT_Mean=yes
+Bwd_IAT_Std=yes
+Bwd_IAT_Maxv=yes
+Bwd_IAT_Min=yes
+Fwd_PSH_Flags=yes
+Bwd_PSH_Flags=yes
+Fwd_URG_Flags=yes
+Bwd_URG_Flags=yes
+Fwd_Header_Len=yes
+Bwd_Header_Len=yes
+Fwd_Pkts_s=yes
+Bwd_Pkts_s=yes
+Pkt_Len_Min=yes
+Pkt_Len_Max=yes
+Pkt_Len_Mean=yes
+Pkt_Len_Std=yes
+Pkt_Len_Var=yes
+FIN_Flag_Cnt=yes
+SYN_Flag_Cnt=yes
+RST_Flag_Cnt=yes
+PSH_Flag_Cnt=yes
+ACK_Flag_Cnt=yes
+URG_Flag_Cnt=yes
+CWR_Flag_Count=yes
+ECE_Flag_Cnt=yes
+Down_Up_Ratio=yes
+Pkt_Size_Avg=yes
+Fwd_Seg_Size_Avg=yes
+Bwd_Seg_Size_Avg=yes
+Fwd_Byts_b_Avg=yes
+Fwd_Pkts_b_Avg=yes
+Fwd_Blk_Rate_Avg=yes
+Bwd_Byts_b_Avg=yes
+Bwd_Pkts_b_Avg=yes
+Bwd_Blk_Rate_Avg=yes
+Subflow_Fwd_Pkts=yes
+Subflow_Fwd_Byts=yes
+Subflow_Bwd_Pkts=yes
+Subflow_Bwd_Byts=yes
+Init_Fwd_Win_Byts=yes
+Init_Bwd_Win_Byts=yes
+Fwd_Act_Data_Pkts=yes
+Fwd_Seg_Size_Min=yes
+Active_Mean=yes
+Active_Std=yes
+Active_Max=yes
+Active_Min=yes
+Idle_Mean=yes
+Idle_Std=yes
+Idle_Max=yes
+Idle_Min=yes
+Label=yes
