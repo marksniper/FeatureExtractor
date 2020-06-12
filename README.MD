@@ -56,7 +56,7 @@ Bwd Pkts/s  | | | no|
 Pkt Len Min   | | | no|
 Pkt Len Max| | |no|
 Pkt Len Mean| | |no|
-Pkt Len Std    | | |   
+Pkt Len Std    | | |no|
 Pkt Len Var      | | |no|
 FIN Flag Cnt      | | |no|
 SYN Flag Cnt| | |no|
