@@ -18,7 +18,6 @@
  */
 package ch.unige.featureextractor.utils.packet;
 
-import ch.unige.featureextractor.Main;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jnetpcap.Pcap;
@@ -35,8 +34,7 @@ import org.jnetpcap.protocol.tcpip.Udp;
 import org.jnetpcap.protocol.vpn.L2TP;
 
 public class PacketReader {
-
-    private static final Logger logger = LogManager.getLogger(Main.class);
+    private static final Logger logger = LogManager.getLogger(PacketReader.class);
     private final boolean readIP6;
     private final boolean readIP4;
     private Pcap pcapReader;
@@ -114,7 +112,7 @@ public class PacketReader {
                 }
             }
         } catch (Exception e) {
-            logger.error(e);
+            logger.error("Error", e);
             return null;
         }
 
@@ -145,7 +143,7 @@ public class PacketReader {
                 }
             }
         } catch (Exception e) {
-            logger.error(e);
+            logger.error("Error", e);
             return null;
         }
 
@@ -186,7 +184,7 @@ public class PacketReader {
                 }
             }
         } catch (Exception e) {
-            logger.error(e);
+            logger.error("Error", e);
         }
 
         return packetInfo;

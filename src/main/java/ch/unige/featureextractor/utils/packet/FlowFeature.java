@@ -18,7 +18,6 @@
  */
 package ch.unige.featureextractor.utils.packet;
 
-import ch.unige.featureextractor.Main;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -114,7 +113,7 @@ public enum FlowFeature {
 
   Label("Label", "LBL", "Label", new String[]{"CIC"}); // 85
 
-  private static final Logger logger = LogManager.getLogger(Main.class);
+  private static final Logger logger = LogManager.getLogger(FlowFeature.class);
   private final String name;
   private final String abbr;
   private final String cvsField;
@@ -159,7 +158,7 @@ public enum FlowFeature {
     for (FlowFeature feature : FlowFeature.values()) {
       String csvFeatureField = feature.getCvsField();
       if (rb.containsKey(csvFeatureField)) {
-        logger.error("csvFeatureField " + csvFeatureField);
+        logger.debug("csvFeatureField " + csvFeatureField);
         header.append(feature.getName()).append(",");
       }
     }

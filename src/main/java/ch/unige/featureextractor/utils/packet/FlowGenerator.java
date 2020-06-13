@@ -18,7 +18,6 @@
  */
 package ch.unige.featureextractor.utils.packet;
 
-import ch.unige.featureextractor.Main;
 import ch.unige.featureextractor.utils.ExtractorFeaturesModel;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -32,7 +31,7 @@ import java.util.HashMap;
 import java.util.ResourceBundle;
 
 public class FlowGenerator {
-  private static final Logger logger = LogManager.getLogger(Main.class);
+  private static final Logger logger = LogManager.getLogger(FlowGenerator.class);
   private final boolean bidirectional;
   private final long flowTimeOut;
   private final long flowActivityTimeOut;

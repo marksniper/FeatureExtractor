@@ -18,7 +18,6 @@
  */
 package ch.unige.featureextractor.utils;
 
-import ch.unige.featureextractor.Main;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.tika.io.IOUtils;
@@ -30,7 +29,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class InsertCsvRow {
-    private static final Logger logger = LogManager.getLogger(Main.class);
+    private static final Logger logger = LogManager.getLogger(InsertCsvRow.class);
     private final String header;
     private final List<String> rows;
     private String savepath = null;
