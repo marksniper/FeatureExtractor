@@ -15,34 +15,34 @@ Src IP | no| | no |
 Src Port | | | land (1 if connection is opened with the same host/port, otherwise 0) |
 Dst IP| no | | no |
 Dst Port| | | land (1 if connection is opened with the same host/port, otherwise 0) |
-Protocol| | | protocol\_type |
+Protocol| | | protocol_type |
 Flow Duration | | | Duration | 
 Tot Fwd Pkts| | | src_bytes |
 Tot Bwd Pkts| | | dst_bytes |
-TotLen Fwd Pkts| | no|
-TotLen Bwd Pkts| | no|
-Fwd Pkt Len Max| | no|
-Fwd Pkt Len Min| | no|
-Fwd Pkt Len Mean| | no|
-Fwd Pkt Len Std| | no|
-Bwd Pkt Len Max| | no|
-Bwd Pkt Len Min| | no|
-Bwd Pkt Len Mean| | no|
-Bwd Pkt Len Std| | no|
-Flow Byts/s| | no|
+TotLen Fwd Pkts| | | no|
+TotLen Bwd Pkts| | | no|
+Fwd Pkt Len Max| | | no|
+Fwd Pkt Len Min| | | no|
+Fwd Pkt Len Mean| | | no|
+Fwd Pkt Len Std| | | no|
+Bwd Pkt Len Max| | | no|
+Bwd Pkt Len Min| | | no|
+Bwd Pkt Len Mean| | | no|
+Bwd Pkt Len Std| | | no|
+Flow Byts/s| | | no|
 Flow Pkts/s   | | |  no| 
 Flow IAT Mean  | | | no|
-Flow IAT Std| | no|
-Flow IAT Max| | no|
-Flow IAT Min| | no|
-Fwd IAT Tot| | no|
-Fwd IAT Mean| | no|
-Fwd IAT Std| | no|
-Fwd IAT Max| | no|
-Fwd IAT Min| | no|
-Bwd IAT Tot| | no|
-Bwd IAT Mean| | no|
-Bwd IAT Std| | no|
+Flow IAT Std| | |no|
+Flow IAT Max| | |no|
+Flow IAT Min| | |no|
+Fwd IAT Tot| | |no|
+Fwd IAT Mean| || no|
+Fwd IAT Std| | |no|
+Fwd IAT Max| | |no|
+Fwd IAT Min| | |no|
+Bwd IAT Tot| | |no|
+Bwd IAT Mean| | |no|
+Bwd IAT Std| | |no|
 Bwd IAT Max| | | no|
 Bwd IAT Min| | |no|
 Fwd PSH Flags| | |no|
@@ -56,7 +56,7 @@ Bwd Pkts/s  | | | no|
 Pkt Len Min   | | | no|
 Pkt Len Max| | |no|
 Pkt Len Mean| | |no|
-Pkt Len Std    | | |   
+Pkt Len Std    | | |no|
 Pkt Len Var      | | |no|
 FIN Flag Cnt      | | |no|
 SYN Flag Cnt| | |no|
